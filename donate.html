@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Donate Items</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="container navbar">
+
+        <div class="logo">
+            <a href="index.html">HomeShare</a>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="browse.html">Browse Items</a>
+            <a href="donate.html">Donate</a>
+            <a href="about.html">About Us</a>
+        </nav>
+
+        <a href="donate.html" class="btn">
+            Donate Now
+        </a>
+
+    </div>
+
+</header>
+
+
+<section class="page-banner">
+
+    <div class="container">
+
+        <h1>Donate Household Items</h1>
+
+        <p>
+            Fill out the form below to list
+            your household donation.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= DONATION FORM ================= -->
+
+<section class="section">
+
+    <div class="container form-container">
+
+        <h2>Donation Form</h2>
+
+        <p>
+            Please provide details about
+            the item you want to donate.
+        </p>
+
+        <form action="#" method="post">
+
+            <label for="donor-name">
+                Donor Name
+            </label>
+
+            <input type="text"
+                   id="donor-name"
+                   name="donor-name"
+                   placeholder="Enter your name"
+                   required>
+
+
+            <label for="email">
+                Email Address
+            </label>
+
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Enter your email"
+                   required>
+
+
+            <label for="item-name">
+                Item Name
+            </label>
+
+            <input type="text"
+                   id="item-name"
+                   name="item-name"
+                   placeholder="Enter household item name"
+                   required>
+
+
+            <label for="category">
+                Item Category
+            </label>
+
+            <select id="category"
+                    name="category"
+                    required>
+
+                <option value="">
+                    Select Category
+                </option>
+
+                <option>Furniture</option>
+
+                <option>Books</option>
+
+                <option>Kitchen Items</option>
+
+                <option>Clothing</option>
+
+                <option>Electronics</option>
+
+                <option>Home Decor</option>
+
+                <option>Other</option>
+
+            </select>
+
+
+            <label for="condition">
+                Item Condition
+            </label>
+
+            <select id="condition"
+                    name="condition"
+                    required>
+
+                <option value="">
+                    Select Condition
+                </option>
+
+                <option>Like New</option>
+
+                <option>Very Good</option>
+
+                <option>Good</option>
+
+                <option>Needs Minor Repair</option>
+
+            </select>
+
+
+            <label for="item-image">
+                Upload Item Image
+            </label>
+
+            <!-- (Insert Image Here: Item Photo Preview Area) -->
+             <img src="Hero Section Photos Placement.img">
+
+            <input type="file"
+                   id="item-image"
+                   name="item-image"
+                   accept="image/*">
+
+
+            <label for="location">
+                Location
+            </label>
+
+            <input type="text"
+                   id="location"
+                   name="location"
+                   placeholder="Enter your locality"
+                   required>
+
+
+            <label for="description">
+                Item Description
+            </label>
+
+            <textarea id="description"
+                      name="description"
+                      rows="5"
+                      placeholder="Describe your item"
+                      required></textarea>
+
+
+            <button type="submit" class="btn">
+                Submit Donation
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= REQUEST FORM ================= -->
+
+<section class="section light-bg">
+
+    <div class="container form-container">
+
+        <h2>Request an Item</h2>
+
+        <p>
+            If you need a household item,
+            fill out this request form.
+        </p>
+
+        <form action="#" method="post">
+
+            <label for="recipient-name">
+                Your Name
+            </label>
+
+            <input type="text"
+                   id="recipient-name"
+                   name="recipient-name"
+                   placeholder="Enter your name"
+                   required>
+
+
+            <label for="recipient-email">
+                Email Address
+            </label>
+
+            <input type="email"
+                   id="recipient-email"
+                   name="recipient-email"
+                   placeholder="Enter your email"
+                   required>
+
+
+            <label for="requested-item">
+                Item You Need
+            </label>
+
+            <input type="text"
+                   id="requested-item"
+                   name="requested-item"
+                   placeholder="Enter item name"
+                   required>
+
+
+            <label for="request-message">
+                Message
+            </label>
+
+            <textarea id="request-message"
+                      name="request-message"
+                      rows="4"
+                      placeholder="Write your message"></textarea>
+
+
+            <button type="submit" class="btn">
+                Submit Request
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="container footer-content">
+
+        <h3>HomeShare</h3>
+
+        <p>
+            Household Donation Exchange
+        </p>
+
+        <p>
+            © 2026 All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
